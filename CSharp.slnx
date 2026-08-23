@@ -4,4 +4,7 @@
   <Project Path="03_Tur_Donusumleri/03_Tur_Donusumleri.csproj" Id="ec917632-3113-4f45-b757-577d67edf7b5" />
   <Project Path="04_Operatorler/04_Operatorler.csproj" Id="8110d56d-25a5-49b0-ab0b-6e7e062799b7" />
   <Project Path="05_KararYapilari/05_KararYapilari.csproj" Id="019d65aa-bca1-41de-955b-c111ece6699d" />
+  <Project Path="06_DateTime_String_Metotlar/06_DateTime_String_Metotlar.csproj" Id="98922be5-0702-4362-8e20-a8088d97c96f" />
+  <Project Path="07_Bankamatik/07_Bankamatik.csproj" Id="3a3b2b3e-e6dc-4be4-9fdf-7935670c9288" />
+  <Project Path="08_Donguler/08_Donguler.csproj" Id="8e8f9e26-2325-49e7-80d4-8135f65618c9" />
 </Solution>
