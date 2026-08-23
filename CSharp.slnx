@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="01_Algoritma/01_Algoritma.csproj" />
+  <Project Path="02_Degiskenler_VeriTipleri/02_Degiskenler_VeriTipleri.csproj" />
+  <Project Path="03_Tur_Donusumleri/03_Tur_Donusumleri.csproj" Id="ec917632-3113-4f45-b757-577d67edf7b5" />
+  <Project Path="04_Operatorler/04_Operatorler.csproj" Id="8110d56d-25a5-49b0-ab0b-6e7e062799b7" />
+  <Project Path="05_KararYapilari/05_KararYapilari.csproj" Id="019d65aa-bca1-41de-955b-c111ece6699d" />
+</Solution>
