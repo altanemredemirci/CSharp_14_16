@@ -1,4 +1,6 @@
-﻿namespace _08_Donguler
+﻿using System.Globalization;
+
+namespace _08_Donguler
 {
     internal class Program
     {
@@ -191,11 +193,246 @@
 
             #endregion
 
-            
+
 
             #endregion
 
+            #region FOR 
 
+            //int i = 0;
+
+            //while (i < 11)
+            //{
+            //    Console.WriteLine(i);
+            //    i++;
+            //}
+
+            //for(int i=0; i<11; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+
+            #region Kullanıcıdan başlangıç ve bitiş değerlerini alınız. Bu aralıktaki sayıları ekrana yazdırınız.
+
+            //Console.WriteLine("Başlangıç değeri:");
+            //int basla = Convert.ToInt32(Console.ReadLine());
+
+            //Console.WriteLine("Bitiş değeri:");
+            //int bitis = Convert.ToInt32(Console.ReadLine());
+
+            //if (basla > bitis) 
+            //{
+            //    Console.WriteLine("Başlangıç değeri Bitiş değerinden küçük olmalıdır.");
+            //}
+            //else
+            //{
+            //    for (int i = basla; i < bitis; i++)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+
+            //2. Yol
+            //if (basla > bitis)
+            //{
+            //    //basla ile bitis takas etmek
+            //    int temp = basla;
+            //    basla = bitis;
+            //    bitis = temp;
+            //}
+
+            //for (int i = basla; i < bitis; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+
+            #endregion
+
+            #region Kullanıcıdan alınan bir sayının faktöriyelini hesaplayınız.
+            //5 => 1*2*3*4*5 = 120
+
+            //Console.WriteLine("Faktöriyel hesaplanacak sayı?");
+            //int sayi = Convert.ToInt32(Console.ReadLine());
+
+            //int faktoriyel = 1;
+
+            //for (int i = sayi; i >= 1; i--)
+            //{
+            //    faktoriyel *= i;
+            //}
+            //Console.WriteLine(faktoriyel);
+            #endregion
+
+            #region 1-500 arasındaki sayıların içinde 13. katlarının kaç adet olduğunu ve toplamlarını hesaplayınız.
+
+            //int adet = 0;
+            //int toplam = 0;
+
+            //for (int i = 1; i < 500; i++)
+            //{
+            //    if (i % 13 == 0)
+            //    {
+            //        adet++;
+            //        toplam += i;
+            //    }
+            //}
+
+            //Console.WriteLine("Toplam:"+toplam);
+            //Console.WriteLine("Adet:"+adet);
+
+            #endregion
+
+            #region RANDOM
+
+            //Belirlenen aralıkta rastgele bir int-tamsayı oluşturur.
+
+            //Random r = new Random(); //Instance - Random classından bir örnek alma denir.
+
+            //Console.WriteLine(r.Next(1, 100));
+
+
+            //while (true)
+            //{
+            //    int rastgele = r.Next(1, 10);
+
+            //    Console.WriteLine(rastgele);
+            //    Thread.Sleep(1000);
+            //}
+
+
+            #endregion
+
+            #region Bilgisayar 1-100 aralığında bir rastgele sayı tutsun. Kullanıcı 5 hakkında bu rastgele sayıyı tahmin etmeye çalışsın. her tahmin sonra Tahmininizi Küçültünüz veya Büyültünüz gibi yönlendirmeler yapalım
+
+            //Random r = new Random();
+
+            //int rastgele = r.Next(1, 100);
+            //Console.WriteLine(rastgele);
+            //int hak = 5;
+
+            //while (hak > 0)
+            //{
+            //    Console.WriteLine("Tahmininiz:");
+            //    int tahmin = Convert.ToInt32(Console.ReadLine());
+
+            //    hak--;
+
+            //    if (tahmin == rastgele)
+            //    {
+            //        Console.WriteLine("Tebrikler");
+            //        break;
+            //    }
+
+            //    else if (hak == 0)
+            //    {
+            //        Console.WriteLine("Hakkınız Bitti.");
+            //    }
+
+            //    else if (tahmin > rastgele)
+            //    {
+            //        Console.WriteLine("Tahmininizi Küçültünüz.");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Tahmininizi Büyültünüz.");
+            //    }
+            //}
+
+
+
+            // Random r = new Random();
+
+            // int rastgele = r.Next(1, 100);
+            // //Console.WriteLine(rastgele);
+
+
+            //for(int i=8; i>0; i--)
+            // {
+            //     Console.WriteLine("Tahmininiz:");
+            //     int tahmin = Convert.ToInt32(Console.ReadLine());
+
+
+            //     if (tahmin == rastgele)
+            //     {
+            //         Console.WriteLine("Tebrikler");
+            //         break;
+            //     }
+
+            //     else if (i == 1)
+            //     {
+            //         Console.WriteLine("Sayı:"+rastgele);
+            //         Console.WriteLine("Hakkınız Bitti.");
+            //     }
+
+            //     else if (tahmin > rastgele)
+            //     {
+            //         Console.WriteLine("Tahmininizi Küçültünüz.");
+            //     }
+            //     else
+            //     {
+            //         Console.WriteLine("Tahmininizi Büyültünüz.");
+            //     }
+            // }
+
+
+
+            #endregion
+            #region Aşağıdaki şekilleri for döngüsü ile oluşturunuz
+
+            /*
+              
+             *
+             **
+             ***
+             ****
+             *****
+             ******
+             *******             
+             
+             */
+
+            //for (int i = 1; i < 10; i++)
+            //{
+            //    for (int j = 0; j < i; j++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
+            /*
+             **********************
+             *                    *
+             *                    *
+             *                    *
+             *                    *
+             *                    *
+             *                    *
+             *                    *
+             **********************
+             
+                *
+               ***
+              *****
+             *******
+            *********
+           ***********
+
+             
+             
+             
+             */
+
+
+
+
+            #endregion
+
+            #endregion
         }
     }
 }
