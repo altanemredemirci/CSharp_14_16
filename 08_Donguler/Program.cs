@@ -414,7 +414,29 @@ namespace _08_Donguler
              *                    *
              *                    *
              **********************
-             
+             */
+
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    if(i==0 || i == 9)
+            //    {
+            //        Console.Write("*******************");
+            //    }
+            //    else
+            //    {
+            //        Console.Write("*");
+            //        for (int j = 0; j < 17; j++)
+            //        {
+            //            Console.Write(" ");
+            //        }
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
+
+            /*
                 *
                ***
               *****
@@ -422,17 +444,155 @@ namespace _08_Donguler
             *********
            ***********
 
-             
+             */
+
+            //int bosluk = 10;
+
+            //for (int i = 1; i < 19; i+=2) 
+            //{
+            //    for (int k = 0; k < bosluk; k++)
+            //    {
+            //        Console.Write(" ");
+            //    }
+
+            //    for (int j = 0; j < i; j++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    bosluk--;
+
+            //    Console.WriteLine();
+            //}
+
+            /*
+             1*1=1    2*1=2    3*1=3
+             1*2=2    2*2=4
+             1*3=3    2*3=6
              
              
              */
 
+            //for (int i = 1; i < 11; i++)
+            //{
+            //    for (int j = 1; j < 11; j++)
+            //    {
+            //        Console.Write(j+"x"+i+"="+(i*j)+"\t");
+            //    }
+            //    Console.WriteLine();
+            //}
+            #endregion
+
+            #region Kullanıcıdan alınan sayının asal olup olmadığını ekrana yazdıralım
+            //Asal Sayı kendisi ve 1 haricinde hiç bir sayıya bölünmeyen sayıdır.
+            //2,3,5,7,11,13,17
+
+            //Console.WriteLine("Bir sayı giriniz:");
+            //int sayi = Convert.ToInt32(Console.ReadLine());
+
+            //if (sayi < 2)
+            //{
+            //    Console.WriteLine("Asal Değildir.");
+            //}
+            //else if (sayi == 2)
+            //{
+            //    Console.WriteLine("Asaldır.");
+            //}
+            //else
+            //{
+            //    bool AsalMi = true;
+            //    for (int bolen = 2; bolen < sayi; bolen++)
+            //    {
+            //        if (sayi % bolen == 0)
+            //        {
+            //            AsalMi = false;
+            //            break;
+            //        }
+            //    }
+            //    if (AsalMi) //ASalMi==true
+            //    {
+            //        Console.WriteLine("Asaldır.");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Asal Değildir.");
+            //    }
+
+            //}
+            #endregion
+
+            #region 1000000 a kadar asal olan sayıları ekrana yazdırınız
+
+            //for (int sayi = 2; sayi < 10000; sayi++)
+            //{
+            //    if (sayi == 2)
+            //    {
+            //        Console.WriteLine(sayi);
+            //    }
+            //    else
+            //    {
+            //        bool AsalMi = true;
+            //        for (int bolen = 2; bolen < sayi; bolen++)
+            //        {
+            //            if (sayi % bolen == 0)
+            //            {
+            //                AsalMi = false;
+            //                break;
+            //            }
+            //        }
+            //        if (AsalMi) //ASalMi==true
+            //        {
+            //            Console.WriteLine(sayi);
+            //        }                  
+
+            //    }
+            //}
+
 
 
 
             #endregion
 
             #endregion
+
+            #region DO WHILE
+            //Do While döngüsü diğer döngülerin aksine önce işlemi yapar sonra koşul kontrolü sağlar.
+            //do
+            //{
+
+            //} while (true);
+
+            //int i = 1;
+
+            //do
+            //{
+            //    Console.WriteLine(i);
+            //    i++;
+
+            //} while (i<11);
+
+
+            #region Kullanıcı 0 girene kadar girilen sayıları toplayınız
+
+            int toplam = 0;
+            int sayi;
+            do
+            {
+                Console.WriteLine("Sayı giriniz:");
+                sayi = Convert.ToInt32(Console.ReadLine());
+
+                toplam += sayi;
+
+            } while (sayi!=0);
+
+            Console.WriteLine("Sonuç:"+toplam);
+            #endregion
+
+
+            #endregion
+
+
+
+
         }
     }
 }
