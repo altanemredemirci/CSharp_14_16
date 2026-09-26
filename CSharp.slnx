@@ -12,4 +12,6 @@
   <Project Path="10_Try_Catch/10_Try_Catch.csproj" Id="1fdeb6aa-eef8-4a20-a7d0-dbdb71fa75e0" />
   <Project Path="11_ArrayList/11_ArrayList.csproj" Id="8ca48152-2476-4175-9641-25698adc2fb7" />
   <Project Path="11_ManavOtomasyonu/11_ManavOtomasyonu.csproj" Id="c4a8ae0e-4b74-4772-a4e0-86405341178c" />
+  <Project Path="12_Metotlar_1/12_Metotlar_1.csproj" Id="eee4cf52-c188-4e93-9188-adc3e2f89288" />
+  <Project Path="12_Metotlar_2/12_Metotlar_2.csproj" Id="4fbb8bad-1635-4ced-b5fa-c6cefc02ebfd" />
 </Solution>
