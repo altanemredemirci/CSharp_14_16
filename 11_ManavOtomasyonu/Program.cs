@@ -35,9 +35,216 @@ namespace _11_ManavOtomasyonu
 
             ArrayList manavMeyve = new ArrayList();
             ArrayList manavSebze = new ArrayList();
-            
+
+            ArrayList manavKiloMeyve = new ArrayList();
+            ArrayList manavKiloSebze = new ArrayList();
+
+
             ArrayList musteri = new ArrayList();
 
+            Console.WriteLine("HALE HOŞGELDİNİZ");
+
+            while (true)
+            {
+                Console.WriteLine("Meyve için M / Sebze için S / Çıkış Q\nSeçiminiz:");
+                string secim = Console.ReadLine().ToUpper();
+
+
+                if (secim == "M") 
+                {
+                    for (int i = 0; i < halMeyve.Count; i++)
+                    {
+                        Console.WriteLine($"{i}-{halMeyve[i]}");
+                    }
+
+                    Console.WriteLine("Satın alınacak ürün numarası:");
+                    int urunNo = Convert.ToInt32(Console.ReadLine());
+
+                    
+
+                    if (urunNo>=0 && urunNo < halMeyve.Count)
+                    {
+                        string urun = (string)halMeyve[urunNo];
+
+                        Console.WriteLine($"Kaç kilo {urun} istersiniz?");
+                        int kilo = Convert.ToInt32(Console.ReadLine());
+
+                        if (manavMeyve.Contains(urun) == false)
+                        {
+                            manavKiloMeyve.Add(kilo);
+                            manavMeyve.Add(urun);
+                        }
+                        else
+                        {
+                            int index = manavMeyve.IndexOf(urun);
+
+                            manavKiloMeyve[index] = (int)manavKiloMeyve[index] + kilo;
+                        }                      
+                    }
+                    else
+                    {
+                        Console.WriteLine("Hatalı ürün seçimi!!");
+                    }
+
+                }
+                else if (secim == "S") 
+                {
+                    for (int i = 0; i < halSebze.Count; i++)
+                    {
+                        Console.WriteLine($"{i}-{halSebze[i]}");
+                    }
+
+                    Console.WriteLine("Satın alınacak ürün numarası:");
+                    int urunNo = Convert.ToInt32(Console.ReadLine());
+
+
+
+                    if (urunNo >= 0 && urunNo < halSebze.Count)
+                    {
+                        string urun = (string)halSebze[urunNo];
+
+                        Console.WriteLine($"Kaç kilo {urun} istersiniz?");
+                        int kilo = Convert.ToInt32(Console.ReadLine());
+
+                        if (manavSebze.Contains(urun) == false)
+                        {
+                            manavKiloSebze.Add(kilo);
+                            manavSebze.Add(urun);
+                        }
+                        else
+                        {
+                            int index = manavSebze.IndexOf(urun);
+
+                            manavKiloSebze[index] = (int)manavKiloSebze[index] + kilo;
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Hatalı ürün seçimi!!");
+                    }
+                }
+                else if (secim == "Q") 
+                {
+                    Console.WriteLine("Yine Bekleriz..");
+                    break; 
+                }
+                else
+                {
+                    Console.WriteLine("Hatalı Seçim!!");
+                }
+            }
+
+            while (true)
+            {
+                Console.WriteLine("MANAVA HOŞGELDİNİZ");
+                Console.WriteLine("Meyve için M / Sebze için S / Çıkış Q\nSeçiminiz:");
+                string secim = Console.ReadLine().ToUpper();
+
+                if (secim == "M") 
+                {
+                    for (int i = 0; i < manavMeyve.Count; i++)
+                    {
+                        Console.WriteLine($"{i}-{manavMeyve[i]}:{manavKiloMeyve[i]}");
+                    }
+
+                    Console.WriteLine("Satın alınacak ürün numarası:");
+                    int urunNo = Convert.ToInt32(Console.ReadLine());
+
+                    if(urunNo>=0 && urunNo < manavMeyve.Count)
+                    {
+                        string urun = (string)manavMeyve[urunNo];
+                        int mevcutKilo = (int)manavKiloMeyve[urunNo];
+
+                        Console.WriteLine($"Kaç kilo {urun} istersiniz?");
+                        int kilo = Convert.ToInt32(Console.ReadLine());
+
+                        if (mevcutKilo >= kilo)
+                        {
+                            Console.WriteLine("Afiyet Olsun.");
+
+                            musteri.Add(urun);
+                            int yeniKilo = mevcutKilo - kilo;
+
+                            if (yeniKilo == 0)
+                            {
+                                manavMeyve.RemoveAt(urunNo);
+                                manavKiloMeyve.RemoveAt(urunNo);
+                            }
+                            else
+                            {
+                                manavKiloMeyve[urunNo] = yeniKilo;
+                            }
+
+                        }
+                        else
+                        {
+                            Console.WriteLine("Yetersiz Stok!");
+                        }
+
+                    }
+                    else
+                    {
+                        Console.WriteLine("Hatalı ürün seçimi!");
+                    }
+                }
+                else if (secim == "S") 
+                {
+                    for (int i = 0; i < manavSebze.Count; i++)
+                    {
+                        Console.WriteLine($"{i}-{manavSebze[i]}:{manavKiloSebze[i]}");
+                    }
+
+                    Console.WriteLine("Satın alınacak ürün numarası:");
+                    int urunNo = Convert.ToInt32(Console.ReadLine());
+
+                    if (urunNo >= 0 && urunNo < manavSebze.Count)
+                    {
+                        string urun = (string)manavSebze[urunNo];
+                        int mevcutKilo = (int)manavKiloSebze[urunNo];
+
+                        Console.WriteLine($"Kaç kilo {urun} istersiniz?");
+                        int kilo = Convert.ToInt32(Console.ReadLine());
+
+                        if (mevcutKilo >= kilo)
+                        {
+                            Console.WriteLine("Afiyet Olsun.");
+
+                            musteri.Add(urun);
+                            int yeniKilo = mevcutKilo - kilo;
+
+                            if (yeniKilo == 0)
+                            {
+                                manavSebze.RemoveAt(urunNo);
+                                manavKiloSebze.RemoveAt(urunNo);
+                            }
+                            else
+                            {
+                                manavKiloSebze[urunNo] = yeniKilo;
+                            }
+
+                        }
+                        else
+                        {
+                            Console.WriteLine("Yetersiz Stok!");
+                        }
+
+                    }
+                    else
+                    {
+                        Console.WriteLine("Hatalı ürün seçimi!");
+                    }
+                }
+                else if (secim == "Q") 
+                {
+                    Console.WriteLine("Yine Bekleriz..");
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Hatalı Seçim!!");
+                }
+
+            }
 
         }
     }
