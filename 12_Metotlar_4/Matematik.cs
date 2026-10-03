@@ -4,7 +4,7 @@ using System.Text;
 
 namespace _12_Metotlar_4
 {
-    internal class Matematik
+    public class Matematik //Default internal erişim özelliği alır. 
     {
         //DATA ACCESS MODIFIER (Erişişm Belirteci)
         /*
@@ -15,7 +15,7 @@ namespace _12_Metotlar_4
          internal protected:
          
          */
-        private static void Toplama()
+        internal static void Toplama() //Default private erişim özelliği alır.
         {
             Console.WriteLine("1.Sayı:");
             int sayi1 = Convert.ToInt32(Console.ReadLine());
@@ -29,5 +29,5 @@ namespace _12_Metotlar_4
         {
             Toplama();
         }
-    }
+    }    
 }

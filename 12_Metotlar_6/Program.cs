@@ -7,17 +7,17 @@
             //Static : Bir class altında tanımlı bir yapıya direk class ismi üzerinden erişim yapmamı sağlar.
 
             //Static Metot kullanımı
-            //Matematik.Hesapla();
+            Matematik.Hesapla();
 
             //NonStatic Metot Kullanımı
-            Matematik matematik = new Matematik();
-            matematik.Hesapla();
+            //Matematik matematik = new Matematik(); //Nesne Oluşturma işlemi Instance
+            //matematik.Hesapla();
         }
     }
 
     class Matematik //Erişim belirteci vermezsek default olarak internal alır.
     {
-        internal void Hesapla() //Erişim belirteci vermezsek default olarak private alır.
+        internal static void Hesapla() //Erişim belirteci vermezsek default olarak private alır.
         {
             Console.WriteLine("1.Sayı:");
             int sayi1 = Convert.ToInt32(Console.ReadLine());

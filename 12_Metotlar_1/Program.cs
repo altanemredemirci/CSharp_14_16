@@ -30,8 +30,7 @@
 
 
             //Topla();
-
-
+          
 
             Console.WriteLine("1.Sayı:");
             int sayi1 = Convert.ToInt32(Console.ReadLine());

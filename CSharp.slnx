@@ -13,10 +13,13 @@
   <Project Path="11_ArrayList/11_ArrayList.csproj" Id="8ca48152-2476-4175-9641-25698adc2fb7" />
   <Project Path="11_ManavOtomasyonu/11_ManavOtomasyonu.csproj" Id="c4a8ae0e-4b74-4772-a4e0-86405341178c" />
   <Project Path="12_Metotlar_1/12_Metotlar_1.csproj" Id="eee4cf52-c188-4e93-9188-adc3e2f89288" />
+  <Project Path="12_Metotlar_10/12_Metotlar_10.csproj" Id="3a2ecc68-f15e-41d8-9d5b-d18c1f6d3837" />
   <Project Path="12_Metotlar_2/12_Metotlar_2.csproj" Id="4fbb8bad-1635-4ced-b5fa-c6cefc02ebfd" />
   <Project Path="12_Metotlar_3/12_Metotlar_3.csproj" Id="b1444a02-73c9-4972-bd50-3a460adad60b" />
   <Project Path="12_Metotlar_4/12_Metotlar_4.csproj" Id="a99d3a79-6997-4aaf-a2bb-73d90699eb86" />
   <Project Path="12_Metotlar_5/12_Metotlar_5.csproj" Id="5375815a-f136-435b-a761-5c364f038093" />
   <Project Path="12_Metotlar_6/12_Metotlar_6.csproj" Id="8ef03f5a-d38f-4acc-88b3-45b76a34c587" />
   <Project Path="12_Metotlar_7/12_Metotlar_7.csproj" Id="82ee9004-1840-46f0-b8cb-ee71ecf6943e" />
+  <Project Path="12_Metotlar_8/12_Metotlar_8.csproj" Id="fc304f8b-1276-42f3-828f-156d778d036e" />
+  <Project Path="12_Metotlar_9/12_Metotlar_9.csproj" Id="d5d3b82c-c331-4e32-a671-5df6608a992c" />
 </Solution>

@@ -7,6 +7,7 @@ namespace _12_Metotlar_7
         static void Main(string[] args)
         {
             #region Kullanıcıdan alınacak 2 ürün fiyatından pahalı olana %30 indirim uygulayan metot ve 3.ürün ister misiniz? sorusunu soran Evet cevabında 3. ürünün fiyatını alarak %50 indirim uygulayan metodu yazınız.
+            
             #endregion
 
             Indirim2();

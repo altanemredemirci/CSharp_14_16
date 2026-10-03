@@ -13,6 +13,7 @@ namespace _12_Metotlar_3
 
             //Topla(10, 10);
 
+            Topla();
 
             Matematik.Toplama();
         }
