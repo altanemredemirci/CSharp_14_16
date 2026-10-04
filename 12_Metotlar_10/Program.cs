@@ -20,22 +20,66 @@
             //Metoda gönderilen parametredeki değişkenin metot işlemi sonucunda değiştirilmesini istiyorum. Metot kendisine gönderilen değeri manipüle etsin.
             //out kelimesi ile gönderilen parametreye ilk değer atama zorunluluğu yoktur.
 
-            //Console.WriteLine("Sayi:");
-            //int sayi = Convert.ToInt32(Console.ReadLine());
+
+
+            //int sayi = 10;
 
             //Arttir(out sayi);
             //Console.WriteLine("Gerçek sayı:" + sayi);
-            
-            
-            int deger;
-            Arttir(out deger);
-            Console.WriteLine(deger);
 
-           
+            //Console.WriteLine("Bir Sayı:");
+            //string s = Console.ReadLine();
+            //int sayi;
+            //if(int.TryParse(s, out sayi))
+            //{
+            //    Console.WriteLine(sayi);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Lütfen rakam giriniz!!");
+            //}
+
+
+            //int deger;
+            //Arttir(out deger);
+            //Console.WriteLine(deger);
+
+
 
 
             #endregion
 
+            #region REF KEYWORD
+
+            //Parametre olan gönderilen değişkenin metot içerisinde değiştirilme ihtimali vardır. Değişmesi halinde dışarıdaki tanımlı değişkene durumu yansıtmamızı sağlar.
+            // out komutundan farklı olarak ilk değer vermek zorundayız. Çünkü metot içerisinde bir manipülasyon olmayabilir.
+
+            //int sayi=10;
+            //Degistir(ref sayi);
+
+            //Console.WriteLine(sayi);
+
+            //int[] sayilar = { 1, 2, 3, 4 };
+
+            //Array.Resize(ref sayilar, 5);
+
+            //sayilar[4] = 5;
+
+
+
+            #endregion
+
+            #region PARAMS KEYWORD
+
+            //Bir metoda belirsiz sayıda parametre vermemizi sağlar.
+
+            Topla(1, 2);
+            Topla(1, 2,3);
+            Topla(1, 2, 3, 4);
+            Topla(1, 2, 3, 4,5);
+
+
+            #endregion
         }
 
         #region DEFAULT DEĞER
@@ -61,5 +105,44 @@
 
 
         #endregion
+
+        #region REF KEYWORD
+
+        static void Degistir(ref int sayi)
+        {
+            sayi = 20;
+            Console.WriteLine(sayi);           
+        }
+
+        #endregion
+
+        #region PARAMS KEYWORD
+        //static void Topla(int s1, int s2)
+        //{
+        //    Console.WriteLine(s1 + s2);
+        //}
+        //static void Topla(int s1, int s2, int s3)
+        //{
+        //    Console.WriteLine(s1 + s2 + s3);
+        //}
+
+        //static void Topla(int s1, int s2, int s3, int s4)
+        //{
+        //    Console.WriteLine(s1 + s2 + s3 + s4);
+        //}
+
+        static void Topla(params int[] sayi)
+        {
+            int toplam = 0;
+
+            foreach (var item in sayi)
+            {
+                toplam += item;
+            }
+
+            Console.WriteLine("Toplam:"+toplam);
+        }
+        #endregion
+
     }
 }
