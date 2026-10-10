@@ -26,4 +26,7 @@
   <Project Path="12_Metotlar_8/12_Metotlar_8.csproj" Id="fc304f8b-1276-42f3-828f-156d778d036e" />
   <Project Path="12_Metotlar_9/12_Metotlar_9.csproj" Id="d5d3b82c-c331-4e32-a671-5df6608a992c" />
   <Project Path="13_SortedList/13_SortedList.csproj" Id="a369dfaf-e4f0-4a7c-953d-fa07f26011ce" />
+  <Project Path="14_List/14_List.csproj" Id="34955968-eedb-4879-a6dc-deecbba2b432" />
+  <Project Path="15_Class_1/15_Class_1.csproj" Id="da4ba629-a572-4ca2-b5b5-612126943f58" />
+  <Project Path="15_Class_2/15_Class_2.csproj" Id="4f628d26-7901-4720-9b7d-94fe68bf012d" />
 </Solution>
