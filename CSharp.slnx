@@ -29,4 +29,7 @@
   <Project Path="14_List/14_List.csproj" Id="34955968-eedb-4879-a6dc-deecbba2b432" />
   <Project Path="15_Class_1/15_Class_1.csproj" Id="da4ba629-a572-4ca2-b5b5-612126943f58" />
   <Project Path="15_Class_2/15_Class_2.csproj" Id="4f628d26-7901-4720-9b7d-94fe68bf012d" />
+  <Project Path="15_Class_3/15_Class_3.csproj" Id="f4f5b0b7-6ab9-42a8-b2ea-5761a2dfa326" />
+  <Project Path="15_Class_4/15_Class_4.csproj" Id="daecf8d3-053f-4279-9c38-598c542d031b" />
+  <Project Path="15_Class_5_ManavOtomasyonu/15_Class_5_ManavOtomasyonu.csproj" Id="8b564dfa-6c0b-49a7-ae62-e576e97a50f0" />
 </Solution>

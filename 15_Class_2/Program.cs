@@ -5,13 +5,15 @@
         static void Main(string[] args)
         {
             //Öğrenci Kayıt Sistemi
-            //ANa menüden kayıt ol seçildiğinde dataların alınarak bir listeye kayıt olması lazım
+            //Ana menüden kayıt ol seçildiğinde dataların alınarak bir listeye kayıt olması lazım
 
             List<Ogrenci> ogrenciler = new List<Ogrenci>();
 
             Ogrenci.Kayit(ogrenciler);
             Ogrenci.Kayit(ogrenciler);
             Ogrenci.Kayit(ogrenciler);
+
+           
 
             
         }
