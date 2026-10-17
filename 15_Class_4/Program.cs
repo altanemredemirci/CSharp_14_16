@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            List<User> users = new List<User>();
+            List<User> users = new List<User>(); //Referans tip
 
             #region 1.Kayit
             User user = new User();
@@ -42,7 +42,7 @@
 
             while (true)
             {
-                Console.WriteLine("1-Kayıt Ol\n2-Giriş Yap\n3-Sil");
+                Console.WriteLine("1-Kayıt Ol\n2-Giriş Yap\n3-Sil\n4-Güncelle\n5-Listele");
                 int secim = Convert.ToInt32(Console.ReadLine());
 
                 if (secim == 1)
@@ -68,7 +68,14 @@
                 {
                     User.Sil(users);
                 }
-
+                else if (secim == 4)
+                {
+                    User.Guncelle(users);
+                }
+                else if (secim == 5)
+                {
+                    User.Listele(users);
+                }
             } 
         }
     }
@@ -117,7 +124,7 @@
             return null;
         }
 
-        private static void Listele(List<User> users)
+        public static void Listele(List<User> users)
         {
             foreach (User user in users)
             {
@@ -154,6 +161,42 @@
             else
             {
                 Console.WriteLine("Silinecek kullanıcı bulunamadı.");
+            }
+        }
+
+        public static void Guncelle(List<User> users)
+        {
+            Listele(users);
+            Console.WriteLine("Güncellenecek kullanıcı adı:");
+            string kullaniciAdi = Console.ReadLine();
+
+            bool isUpdated = false;
+
+            foreach (User item in users)
+            {
+                if (item.Username == kullaniciAdi)
+                {
+                    Console.WriteLine("Ad Soyad:");
+                    item.FullName = Console.ReadLine();
+
+                    Console.WriteLine("Email:");
+                    item.Email = Console.ReadLine();
+
+                    Console.WriteLine("Kullanıcı Adı:");
+                    item.Username = Console.ReadLine();
+
+                    isUpdated = true;
+                    break;
+                }
+            }
+
+            if (isUpdated)
+            {
+                Console.WriteLine("Güncellendi");
+            }
+            else
+            {
+                Console.WriteLine("Güncellenemedi");
             }
         }
     }

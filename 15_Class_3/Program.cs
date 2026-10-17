@@ -13,7 +13,6 @@
 
 
 
-
             //Kitap kitap = new Kitap();
             //kitap.KaydetNonStatic();
             //kitaplar.Add(kitap);
