@@ -42,6 +42,33 @@
             */
             #endregion
 
+            List<Masa> Masalar = new List<Masa>()
+            {
+                new Masa(){No=1,Hesap=0},
+                new Masa(){No=2,Hesap=0},
+                new Masa(){No=3,Hesap=0},
+                new Masa(){No=4,Hesap=0},
+                new Masa(){No=5,Hesap=0}
+            };
+
+            List<Menu> Menuler = new List<Menu>()
+            {
+                new Menu(){No=1,Ad="Çorbalar",Yemekler = new List<Yemek>()
+                    {
+                        new Yemek(){No=1,Ad="Mercimek",Fiyat=100},
+                        new Yemek(){No=2,Ad="Ezogelin",Fiyat=200},
+                        new Yemek(){No=3,Ad="Yayla",Fiyat=150}
+                    }
+                },
+
+                new Menu(){No=2,Ad="Salatalar",Yemekler = new List<Yemek>()
+                    {
+                        new Yemek(){No=1,Ad="Sezar",Fiyat=100},
+                        new Yemek(){No=2,Ad="Mevsim",Fiyat=200},
+                        new Yemek(){No=3,Ad="Ton Balıklı",Fiyat=150}
+                    },
+                }
+            };
         }
     }
-}
+}   

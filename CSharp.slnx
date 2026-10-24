@@ -33,5 +33,8 @@
   <Project Path="15_Class_4/15_Class_4.csproj" Id="daecf8d3-053f-4279-9c38-598c542d031b" />
   <Project Path="15_Class_5/15_Class_5.csproj" Id="77928c79-37d0-4b3c-b672-b133535e9542" />
   <Project Path="15_Class_5_ManavOtomasyonu/15_Class_5_ManavOtomasyonu.csproj" Id="8b564dfa-6c0b-49a7-ae62-e576e97a50f0" />
+  <Project Path="15_Class_6_Constructor/15_Class_6_Constructor.csproj" Id="3e772159-ed41-4128-8af4-7259004d57c1" />
+  <Project Path="15_Class_6_COnstructor_2/15_Class_6_COnstructor_2.csproj" Id="9f15637c-fedd-4d3f-b80f-b8925b4f00cf" />
+  <Project Path="15_Class_6_Constructor_3/15_Class_6_Constructor_3.csproj" Id="c23f1d85-5757-4768-8180-b6129aedf818" />
   <Project Path="16_Restaurant_Otomasyonu/16_Restaurant_Otomasyonu.csproj" Id="0900503d-d747-4ba6-95a3-cb01a42bbf29" />
 </Solution>

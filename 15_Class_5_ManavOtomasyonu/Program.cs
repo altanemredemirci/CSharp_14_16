@@ -4,12 +4,7 @@
     {
         static void Main(string[] args)
         {
-            List<Musteri> musteriler = new List<Musteri>()
-            {
-                new Musteri(){TC=12345678909, Sifre="123",Bakiye=10000},
-                new Musteri(){TC=12345678908, Sifre="123",Bakiye=5000}
-            };
-
+           
             List<Urun> HalUrunler = new List<Urun>()
             {
                 new Urun(){Ad="Elma",Fiyat=100,Stok=200,Tur="M"},
