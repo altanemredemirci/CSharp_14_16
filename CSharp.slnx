@@ -36,5 +36,7 @@
   <Project Path="15_Class_6_Constructor/15_Class_6_Constructor.csproj" Id="3e772159-ed41-4128-8af4-7259004d57c1" />
   <Project Path="15_Class_6_COnstructor_2/15_Class_6_COnstructor_2.csproj" Id="9f15637c-fedd-4d3f-b80f-b8925b4f00cf" />
   <Project Path="15_Class_6_Constructor_3/15_Class_6_Constructor_3.csproj" Id="c23f1d85-5757-4768-8180-b6129aedf818" />
+  <Project Path="15_Class_7_Enum/15_Class_7_Enum.csproj" Id="cca46941-06b6-492a-a38b-77bd1e5ff4e8" />
+  <Project Path="15_Class_7_Enum_2/15_Class_7_Enum_2.csproj" Id="ce1d503b-f67f-47a8-996f-43ff51085182" />
   <Project Path="16_Restaurant_Otomasyonu/16_Restaurant_Otomasyonu.csproj" Id="0900503d-d747-4ba6-95a3-cb01a42bbf29" />
 </Solution>
