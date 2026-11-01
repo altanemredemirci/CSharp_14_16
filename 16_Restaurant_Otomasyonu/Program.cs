@@ -202,9 +202,18 @@
                 {
                     Console.WriteLine("1-Yemek Ekle\n2-Yemek Sil\n3-Yemek Güncelle\nSeçiminiz:");
                     int secimYemek = Convert.ToInt32(Console.ReadLine());
-                    if (secimYemek == 1) { }
-                    else if (secimYemek == 2) { }
-                    else if (secimYemek == 3) { }
+                    if (secimYemek == 1) 
+                    {
+                        Yemek.Ekle(Menuler);
+                    }
+                    else if (secimYemek == 2) 
+                    {
+                        Yemek.Sil(Menuler);
+                    }
+                    else if (secimYemek == 3) 
+                    {
+                        Yemek.Guncelle(Menuler);
+                    }
                     else
                     {
                         Console.WriteLine("Hatalı İşlem Seçimi!");
