@@ -14,7 +14,7 @@
             universite._final = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine(universite.Ortalama());
-
+            Console.WriteLine(universite._vize);
         }
     }
     class Universite
