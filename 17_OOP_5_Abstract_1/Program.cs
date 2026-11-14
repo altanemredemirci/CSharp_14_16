@@ -17,7 +17,7 @@ namespace _17_OOP_5_Abstract_1
              
              */
 
-            //Insan insan = new Insan(); //Class Abstract tanımlı olması sebebiyle örnek (nesne) oluşturulumaz.
+            Insan insan = new Insan(); //Class Abstract tanımlı olması sebebiyle örnek (nesne) oluşturulumaz.
 
             Vatandas vatandas = new Vatandas();
             Memur memur = new Memur();
@@ -89,3 +89,4 @@ namespace _17_OOP_5_Abstract_1
         }
     }
 }
+

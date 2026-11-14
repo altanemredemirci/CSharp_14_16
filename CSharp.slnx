@@ -43,12 +43,16 @@
   <Project Path="17_OOP_1/17_OOP_1.csproj" Id="b08aea5f-1062-40e6-9950-ece9fe97f271" />
   <Project Path="17_OOP_2_Encapsulation_1/17_OOP_2_Encapsulation_1.csproj" Id="613cdc52-a0dd-4e76-a1df-a3017cdfe058" />
   <Project Path="17_OOP_2_Encapsulation_2/17_OOP_2_Encapsulation_2.csproj" Id="5b5592d6-bfa4-47ae-98a0-9cf1841e2c45" />
-  <Project Path="17_OOP_3_Inheritaance_4/17_OOP_3_Inheritance_4.csproj" Id="9bf30153-b7f6-4ce3-a57a-1a247de09d69" />
   <Project Path="17_OOP_3_Inheritance_1/17_OOP_3_Inheritance_1.csproj" Id="e54b70f2-1619-4840-9c7d-8c13e26d58ce" />
   <Project Path="17_OOP_3_Inheritance_2/17_OOP_3_Inheritance_2.csproj" Id="5e61b18d-4b8c-4f38-97c1-f121dffb0202" />
   <Project Path="17_OOP_3_Inheritance_3/17_OOP_3_Inheritance_3.csproj" Id="842abe6d-9758-4cc6-ad18-c84fe33fdee4" />
+  <Project Path="17_OOP_3_Inheritance_4/17_OOP_3_Inheritance_4.csproj" />
   <Project Path="17_OOP_3_Inheritance_5/17_OOP_3_Inheritance_5.csproj" />
   <Project Path="17_OOP_4_Polymorphism_1/17_OOP_4_Polymorphism_1.csproj" Id="290cb3d4-416f-4c50-9588-8db6d996e451" />
   <Project Path="17_OOP_4_Polymorphism_2/17_OOP_4_Polymorphism_2.csproj" Id="e638968f-59bd-48e7-8100-c4874beda46e" />
   <Project Path="17_OOP_5_Abstract_1/17_OOP_5_Abstract_1.csproj" Id="f41cd72b-fd8e-4a1c-a964-b17686aef95b" />
+  <Project Path="17_OOP_5_Abstract_2/17_OOP_5_Abstract_2.csproj" Id="d629dfcf-cca3-4a40-86a0-e08e7312fa38" />
+  <Project Path="17_OOP_5_Abstract_3/17_OOP_5_Abstract_3.csproj" Id="4a60e72e-be1d-43df-a05a-a909075a0512" />
+  <Project Path="17_OOP_6_Interface_1/17_OOP_6_Interface_1.csproj" Id="33636ff1-6b22-4ed6-85a3-b5c763f81377" />
+  <Project Path="17_OOP_6_Interface_2/17_OOP_6_Interface_2.csproj" Id="77c7b1aa-d25d-49d8-a6f1-d87fbd49a21e" />
 </Solution>
