@@ -56,4 +56,10 @@
   <Project Path="17_OOP_6_Interface_1/17_OOP_6_Interface_1.csproj" Id="33636ff1-6b22-4ed6-85a3-b5c763f81377" />
   <Project Path="17_OOP_6_Interface_2/17_OOP_6_Interface_2.csproj" Id="77c7b1aa-d25d-49d8-a6f1-d87fbd49a21e" />
   <Project Path="17_OOP_7_Proje/17_OOP_7_Proje.csproj" Id="45b195a3-66a8-4899-bb4d-32e36e43cec9" />
+  <Project Path="18_Generic_1_Mimari/18_Generic_1_Mimari.csproj" Id="3436b24b-0461-4d29-8028-bdb6648ca6b0" />
+  <Project Path="18_Generic_2_Type_Overloading/18_Generic_2_Type_Overloading.csproj" Id="b76b6055-fea8-4e0f-a58e-d45bb00ccbc5" />
+  <Project Path="18_Generic_3_Inheritance/18_Generic_3_Inheritance.csproj" Id="475b4467-cf19-4337-a08f-8181bf40882a" />
+  <Project Path="18_Generic_4_Kisitlamalar/18_Generic_4_Kisitlamalar.csproj" Id="240601c3-ecb6-4255-8374-b8da580ec098" />
+  <Project Path="18_Generic_5_Methods/18_Generic_5_Methods.csproj" Id="b0a7290d-02c7-497f-9639-9fb7b18ccb87" />
+  <Project Path="18_Generic_6_Ornekler/18_Generic_6_Ornekler.csproj" Id="cef2235f-c61b-4916-98b9-4feffa3af0a2" />
 </Solution>
