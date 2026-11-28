@@ -63,4 +63,5 @@
   <Project Path="18_Generic_5_Methods/18_Generic_5_Methods.csproj" Id="b0a7290d-02c7-497f-9639-9fb7b18ccb87" />
   <Project Path="18_Generic_6_Ornekler/18_Generic_6_Ornekler.csproj" Id="cef2235f-c61b-4916-98b9-4feffa3af0a2" />
   <Project Path="19_WinForm_1/19_WinForm_1.csproj" Id="896a2a5a-3812-47f2-82a6-2b322df82457" />
+  <Project Path="19_WinForm_2/19_WinForm_2.csproj" Id="a10f1040-6091-44d3-b557-360420e1d4f0" />
 </Solution>
